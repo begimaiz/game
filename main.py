@@ -31,18 +31,18 @@ def take_input(token):
 
 
 def check_win():
+    result = ' '
     for el in win_coord:
         if board[el[0]-1] == board[el[1]-1] == board[el[2]-1]:
-            return ''+board[el[0]-1]
-        else:
-            return ' '
+            result = ''+board[el[0]-1]
+    return result
 
 
 def main():
     draw_board()
     notwon = True
-    counter = 0
-    while notwon and counter < 10:
+    counter = 1
+    while counter < 10 and notwon == True:
         if counter % 2 == 0:
             take_input('X')
             draw_board()
@@ -50,12 +50,10 @@ def main():
             take_input('O')
             draw_board()
         counter += 1
-        print(counter)
         check = check_win()
-
         if check == ' ':
             pass
-        else:
+        elif check == 'X' or check == 'O':
             print('won', check)
             notwon = False
 

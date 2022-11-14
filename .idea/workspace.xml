@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de34ec74-2416-4644-ba9e-d9fde27c9709" name="Changes" comment="methods added">
+    <list default="true" id="de34ec74-2416-4644-ba9e-d9fde27c9709" name="Changes" comment="all methods added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -67,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668078578328</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all methods added">
+      <created>1668176286479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668176286479</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="methods added" />
-    <option name="LAST_COMMIT_MESSAGE" value="methods added" />
+    <MESSAGE value="all methods added" />
+    <option name="LAST_COMMIT_MESSAGE" value="all methods added" />
   </component>
 </project>
